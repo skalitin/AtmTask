@@ -9,6 +9,10 @@ namespace Atm
         }
         public int Value { get; set; }
         public int Count { get; set; }
-        public int Amount => Value * Count;
+
+        public override string ToString() 
+        {
+            return $"{Count}x{Value}";
+        }
     }
 }

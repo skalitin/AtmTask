@@ -23,6 +23,5 @@ namespace Atm
             var terminal = new Terminal(load);
             Console.WriteLine($"Result for {value} is {terminal.Take(value)}");
         }
-
     }
 }
