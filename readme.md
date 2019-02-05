@@ -1,4 +1,4 @@
-##How to run tests:
+## How to run tests:
 
 * `cd AtmTests`
 * `dotnet test`
